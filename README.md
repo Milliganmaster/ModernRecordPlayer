@@ -17,7 +17,7 @@ Install Dependencies: Before running the code, ensure that you have installed th
 
 bash
 
-pip install spotipy
+    pip install spotipy
 
 Spotify Account and Credentials: Create a Spotify developer account and obtain the CLIENT_ID and CLIENT_SECRET required for authentication. These credentials are used to interact with the Spotify API. Replace the placeholders CLIENT_ID and CLIENT_SECRET in the code with your actual credentials.
 
