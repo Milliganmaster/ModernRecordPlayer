@@ -5,17 +5,15 @@ Hardware Requirements
 
 ## To run this RFID Music Player, you will need the following hardware components:
 
-Raspberry Pi (with Raspbian OS or compatible)
-MFRC522 RFID Reader
-RFID Tags or Cards (compatible with MFRC522)
-Speakers (connected to the Raspberry Pi)
-Internet connectivity for Spotify playback
+- Raspberry Pi (with Raspbian OS or compatible)
+- MFRC522 RFID Reader
+- RFID Tags or Cards (compatible with MFRC522)
+- Speakers (connected to the Raspberry Pi)
+- Internet connectivity for Spotify playback
 
 ## Setup Instructions
 
 Install Dependencies: Before running the code, ensure that you have installed the necessary dependencies. This includes Python, Spotipy (a Python library for Spotify), and RPi.GPIO (for GPIO control on the Raspberry Pi). You can install Spotipy using pip:
-
-bash
 
     pip install spotipy
 
