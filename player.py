@@ -5,8 +5,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from time import sleep
 
-CLIENT_ID="b1d9811c8423481db3bf2545c54d9262"
-CLIENT_SECRET="d6233f3961b6444faad0c04ff236a9ad"
+CLIENT_ID="INSERT_CLIENT_ID"
+CLIENT_SECRET="INSERT_SECRET_ID"
 
 while True:
     try:
