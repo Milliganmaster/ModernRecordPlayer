@@ -1,9 +1,9 @@
-RFID Music Player - README
+# RFID Music Player - README
 
 This repository contains code for an RFID Music Player that allows you to associate RFID tags with specific songs, playlists, albums, or artists on Spotify. When the RFID tag is scanned using a compatible reader, the associated music will be played through the connected speakers.
 Hardware Requirements
 
-To run this RFID Music Player, you will need the following hardware components:
+## To run this RFID Music Player, you will need the following hardware components:
 
     Raspberry Pi (with Raspbian OS or compatible)
     MFRC522 RFID Reader
@@ -11,7 +11,7 @@ To run this RFID Music Player, you will need the following hardware components:
     Speakers (connected to the Raspberry Pi)
     Internet connectivity for Spotify playback
 
-Setup Instructions
+## Setup Instructions
 
     Install Dependencies: Before running the code, ensure that you have installed the necessary dependencies. This includes Python, Spotipy (a Python library for Spotify), and RPi.GPIO (for GPIO control on the Raspberry Pi). You can install Spotipy using pip:
 
@@ -29,7 +29,7 @@ Setup Instructions
 
     Enjoy Your Music: Touch an RFID tag to the RFID reader, and the music associated with that tag will start playing through the connected speakers.
 
-Notes and Tips
+## Notes and Tips
 
     Make sure your Raspberry Pi is connected to the internet so that Spotify can stream the music.
     Ensure that the RFID tags/cards are compatible with the MFRC522 reader used in the project.
